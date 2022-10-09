@@ -2,6 +2,9 @@
 
 ## 构建一个vue3 + ts项目
 
+#### 使用cdn
+* 分支：`feat/cdn`
+
 #### 使用vite搭建
 * 参考来源：https://juejin.cn/post/7036745610954801166
 * 分支：`feat/vite`
