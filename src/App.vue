@@ -5,12 +5,12 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { ref } from 'vue';
 export default {
   name: 'App',
   setup() {
-    const num = ref(1);
+    const num = ref<number>(1);
     const add = () => {
       num.value ++
     }
