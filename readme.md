@@ -8,4 +8,4 @@
 
 #### 自己从0搭建
 * 参考来源：https://juejin.cn/post/6844903833160646663
-* 分支：`feat/self`
+* 分支：[feat/self](https://github.com/wongest/vue3-demo/tree/feat/self)
