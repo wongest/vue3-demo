@@ -1,7 +1,6 @@
 <template>
   <div class="App">
-    num: {{ num }}
-    <div @click="add()">+</div>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -10,20 +9,11 @@ import { ref } from 'vue';
 export default {
   name: 'App',
   setup() {
-    const num = ref<number>(1);
-    const add = () => {
-      num.value ++
-    }
-    return {
-      num,
-      add,
-    }
+ 
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.App {
-  color: pink;
-}
+
 </style>

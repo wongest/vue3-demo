@@ -20,6 +20,9 @@ module.exports = {
     // 生成的chunk 文件名称
     chunkFilename: 'js/[name].[hash:8].js',
   },
+  resolve: {
+    extensions: ['.js', '.ts']
+  },
   devServer: {
     static: './dist',
     port: 8000,
