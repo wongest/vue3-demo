@@ -35,6 +35,7 @@ exports.babelLoaderConf = {
           corejs: 3,
         },
       ],
+      "@babel/plugin-transform-async-to-generator",
     ],
   },
 };
